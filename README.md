@@ -12,10 +12,10 @@ http://koike55net.sakura.ne.jp/classifier/index.cgi
 * 1.9.2以降のRuby (2.0.0で動作確認)
 * MeCab，MeCab-Ruby
 * RubyGem
-** Sinatra
-** Nokogiri
-** evernote-thrift
-** evernote-oauth
+  * Sinatra
+  * Nokogiri
+  * evernote-thrift
+  * evernote-oauth
 
 準備
 ------
@@ -24,12 +24,12 @@ http://koike55net.sakura.ne.jp/classifier/index.cgi
   http://dev.evernote.com/documentation/cloud/
 * 上記のライブラリ等をインストールする
 * evernote_config.rb の各関数を自分の環境に合わせて書き換える
-** auth_key: Evernote APIを使うためのキーを返す
-** auth_secret: Evernote APIを使用するためのパスワードを返す
-** auth_token: Evernote APIに必要なトークンを返す（詳細はEvernote APIの資料を参照のこと）
-** reject_notebook: 指定されたノートブックを分類に使用しない時，trueを返す．もしノートブックによるフィルタリングをしないのであれば，常にfalseを返す．
-** reject_note: 指定されたノートを分類に使用しない時，trueを返す．もしノートによるフィルタリングをしないのであれば，常にfalseを返す．
-** get_category: 指定されたノートのカテゴリを返す．本アプリはこの関数で指定されたカテゴリに基づいて，ニュースの分類を行う．
+  * auth_key: Evernote APIを使うためのキーを返す
+  * auth_secret: Evernote APIを使用するためのパスワードを返す
+  * auth_token: Evernote APIに必要なトークンを返す（詳細はEvernote APIの資料を参照のこと）
+  * reject_notebook: 指定されたノートブックを分類に使用しない時，trueを返す．もしノートブックによるフィルタリングをしないのであれば，常にfalseを返す．
+  * reject_note: 指定されたノートを分類に使用しない時，trueを返す．もしノートによるフィルタリングをしないのであれば，常にfalseを返す．
+  * get_category: 指定されたノートのカテゴリを返す．本アプリはこの関数で指定されたカテゴリに基づいて，ニュースの分類を行う．
 
 各種データの生成
 -------------
