@@ -34,22 +34,22 @@ http://koike55net.sakura.ne.jp/classifier/index.cgi
 各種データの生成
 -------------
 
-### Evernoteからノートを収集する．（ノート情報はnotes.jsonに保存される）
+* Evernoteからノートを収集する．（ノート情報はnotes.jsonに保存される）
 ```
 $ ruby generate_notes_json.rb
 ```
 
-### Evernoteから取得したノート情報を利用して，ナイーブベイズ分類器のモデル推定を行う．（パラメータはclassifier.jsonに保存される）
+* Evernoteから取得したノート情報を利用して，ナイーブベイズ分類器のモデル推定を行う．（パラメータはclassifier.jsonに保存される）
 ```
 $ ruby train.rb
 ```
 
-### Web上のニュースサイトからニュース記事を収集する．（収集した記事はarticles.jsonに保存される）
+* Web上のニュースサイトからニュース記事を収集する．（収集した記事はarticles.jsonに保存される）
 ```
 $ ruby generate_articles_json.rb
 ```
 
-### ニュース記事の分類を行う．（記事の分類結果はcontents.jsonに保存される）
+* ニュース記事の分類を行う．（記事の分類結果はcontents.jsonに保存される）
 ```
 $ ruby generate_contents_json.rb
 ```
