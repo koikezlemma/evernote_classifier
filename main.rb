@@ -54,7 +54,7 @@ __END__
 
 <!-- ********** Header ********************* -->
 <div data-role="header">
-  <h1>Evernote classifier</h1>
+  <p class="wordbreak" align="center">Evernote classifier</p>
 </div>
 <!-- ********** Content ******************** -->
 <div data-role="content">
@@ -72,7 +72,7 @@ __END__
 </div>
 <!-- ********** Footer ********************* -->
 <div data-role="footer">
-  <h1>Evernote classifier</h1>
+  <p class="wordbreak" align="center">Evernote classifier</p>
 </div>
 
 </div>
