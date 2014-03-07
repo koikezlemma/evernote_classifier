@@ -1,0 +1,30 @@
+{
+  "Tech": [
+    {
+      "score": 0.99,
+      "title": "IT総合情報ポータル「ITmedia」Home",
+      "link": "http://www.itmedia.co.jp"
+    }
+  ],
+  "MyStudy": [
+    {
+      "score": 0.96,
+      "title": "TechCrunch Japan",
+      "link": "http://jp.techcrunch.com"
+    }
+  ],
+  "Biz": [
+    {
+      "score": 0.98,
+      "title": "nikkei BPnet 〈日経BPネット〉",
+      "link": "http://www.nikkeibp.co.jp"
+    }
+  ],
+  "Life": [
+    {
+      "score": 0.7,
+      "title": "Yahoo!ニュース",
+      "link": "http://news.yahoo.co.jp"
+    }
+  ]
+}
