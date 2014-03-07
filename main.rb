@@ -37,9 +37,9 @@ __END__
   <meta name="viewport" content="width=device-width">
 
   <title>Evernote classifier</title>
-  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.css" />
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
   <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-  <script src="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
 
   <style>
   .wordbreak{
@@ -50,7 +50,7 @@ __END__
 </head>
 
 <body>
-<div data-role="page" id="index" data-theme="a">
+<div data-role="page" id="index" data-theme="e">
 
 <!-- ********** Header ********************* -->
 <div data-role="header">
